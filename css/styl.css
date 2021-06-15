@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    display: inline-block;
+    text-align: center;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.col-4 {
+    padding: 0 15px;
+    width: 33.333%;
+}
+.col-3 {
+    padding: 0 15px;
+    width: 25%;
+}
+
+/*------------HERO------------*/
+
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-header li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 31px 0 32px;
+}
+.mobile-menu {
+    display: none;
+}
+
+
+.navbar-icon {
+    margin-left: 24px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-icon span {
+    width: 5px;
+    height: 16px;
+    font-size: 8px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+.icon-none{
+   display: flex;
+}
+
+.icon-cart span {
+    width: 10px;
+    height: 10px;
+    top: 0;
+    right: -4px;
+    background: #C72535;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+/*------------HERO------------*/
+.hero-box {
+    margin: 129px 28px 73px 0;
+    width: 100%;
+}
+
+.hero-title-red {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.145em;
+    text-transform: uppercase;
+    color: #C72535;
+    opacity: 0.6;
+    margin-bottom: 3px;
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 68px;
+    line-height: 86px;
+}
+
+.hero-title-under{
+    background-color: #aad6f8;
+    display: inline-block;
+}
+.hero-title-under span{
+    color: #247CC0;
+    padding: 3px 10px;
+    margin-left: -9px;
+    font-weight: 600;
+    font-size: 61px;
+    line-height: 73px;
+}
+.hero-title {
+    font-weight: 600;
+    font-size: 61px;
+    line-height: 73px;
+}
+
+.hero-desc {
+    margin: 29px 0 36px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #030D15;
+    opacity: 0.6;
+}
+
+.hero-img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.hero-btn {
+    background: #247CC0;
+    padding: 16px 35px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.btn-black {
+    color: #030D15;
+    margin: 0 18px 0 31px;
+}
+.btn-opacity {
+    opacity: 0.5;
+}
+/*---------HERO-------------*/
+.brand-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 76px 118px;
+    background: #FFFFFF;
+    box-shadow: 0 100px 80px rgba(174, 174, 174, 0.08), 0 43.751px 36.4414px rgba(174, 174, 174, 0.0575083), 0 19.8401px 19.1406px rgba(174, 174, 174, 0.0476886), 0 6.77214px 9.61331px rgba(174, 174, 174, 0.04), 0 0.190079px 4.14347px rgba(174, 174, 174, 0.0323114), 0 -1.73968px 1.20532px rgba(174, 174, 174, 0.0224916);
+}
+.brand-img:not(:last-child) {
+    margin-right: 84px;
+}
+
+/*-----------PRODUCT-------------*/
+.product-box{
+    margin-top: 132px;
+}
+.geyser-img{
+    position: relative;
+}
+.geyser-icon{
+    width: 30px;
+    height: 30px;
+    top: -11px;
+    right: -14px;
+    border: 1px solid #585c5f;
+    border-radius: 50%;
+    position: absolute;
+    background: #FFFFFF;
+}
+.icon-geyser{
+    top: 4px;
+    right: 4px;
+    font-size: 18px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.geyser-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #030D15;
+    margin-top: 27px;
+}
+.geyser-desc{
+    font-size: 14px;
+    line-height: 21px;
+    color: #030D15;
+    opacity: 0.6;
+    margin: 9px 0 20px;
+}
+.product-span{
+    margin: 0;
+}
+.star{
+    margin: 15px 0 31px;
+}
+.red{
+    color: #C72535;
+   fill: #C72535;
+}
