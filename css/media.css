@@ -226,6 +226,9 @@
     .star {
         margin: 10px 0 20px;
     }
+    .product-box {
+        margin-top: 40px;
+    }
 
 }
 @media (max-width: 480px) { /* 0 - 480 */
@@ -238,6 +241,7 @@
     }
     .hero-title-under span {
         font-size: 26px;
+        line-height: 48px;
     }
     .hero-title {
         font-size: 21px;
